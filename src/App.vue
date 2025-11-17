@@ -1,5 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import createGlobalState from "./components/01_createGlobalState/index.vue";
+</script>
 
-<template></template>
+<template>
+  <createGlobalState />
+</template>
 
 <style scoped></style>
