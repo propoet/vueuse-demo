@@ -20,6 +20,6 @@ watch(visibility, (current, previous) => {
 
 <template>
   <h1>11_useDocumentVisibility 使用文档可见性</h1>
-  <div>{{ message }}</div>
+  <div >{{ message }}</div>
   <hr />
 </template>

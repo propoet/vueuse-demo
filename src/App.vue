@@ -13,6 +13,7 @@ import useDocumentVisibility from "./components/11_useDocumentVisibility/demo.vu
 </script>
 
 <template>
+  <hr class="my-8" />
   <useDocumentVisibility />
   <useActiveElement />
   <useManualRefHistory />
