@@ -7,9 +7,11 @@ import useAsyncState from "./components/05_useAsyncState/index.vue";
 import useRefHistory from "./components/06_useRefHistory/index.vue";
 import useLastChanged from "./components/07_useLastChanged/index.vue";
 import useStorage from "./components/08_UseStorage/index.vue";
+import useManualRefHistory from "./components/09_useManualRefHistory/demo.vue";
 </script>
 
 <template>
+  <useManualRefHistory />
   <useStorage />
   <useLastChanged />
   <useRefHistory />
