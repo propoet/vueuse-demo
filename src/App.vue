@@ -6,9 +6,11 @@ import provideAndInjectLocal from "./components/04_provideAndInjectLocal/index.v
 import useAsyncState from "./components/05_useAsyncState/index.vue";
 import useRefHistory from "./components/06_useRefHistory/index.vue";
 import useLastChanged from "./components/07_useLastChanged/index.vue";
+import useStorage from "./components/08_UseStorage/index.vue";
 </script>
 
 <template>
+  <useStorage />
   <useLastChanged />
   <useRefHistory />
   <useAsyncState />
