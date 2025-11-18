@@ -5,9 +5,11 @@ import createSharedComposable from "./components/03_createSharedComposable/index
 import provideAndInjectLocal from "./components/04_provideAndInjectLocal/index.vue";
 import useAsyncState from "./components/05_useAsyncState/index.vue";
 import useRefHistory from "./components/06_useRefHistory/index.vue";
+import useLastChanged from "./components/07_useLastChanged/index.vue";
 </script>
 
 <template>
+  <useLastChanged />
   <useRefHistory />
   <useAsyncState />
   <provideAndInjectLocal />
