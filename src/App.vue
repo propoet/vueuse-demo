@@ -9,9 +9,11 @@ import useLastChanged from "./components/07_useLastChanged/index.vue";
 import useStorage from "./components/08_UseStorage/index.vue";
 import useManualRefHistory from "./components/09_useManualRefHistory/demo.vue";
 import useActiveElement from "./components/10_useActiveElement/demo.vue";
+import useDocumentVisibility from "./components/11_useDocumentVisibility/demo.vue";
 </script>
 
 <template>
+  <useDocumentVisibility />
   <useActiveElement />
   <useManualRefHistory />
   <useStorage />
