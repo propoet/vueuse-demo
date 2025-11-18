@@ -1,5 +1,8 @@
 <template>
-  <h1>06_useRefHistory 使用引用历史</h1>
+  <h1>
+    06_useRefHistory 使用引用历史 可以使用防抖useDebouncedRefHistory
+    和节流useThrottledRefHistory 来记录历史
+  </h1>
   <div>count: {{ count }}</div>
   <button @click="increment">Increment</button>
   <button @click="decrement">Decrement</button>
