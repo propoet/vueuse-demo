@@ -14,9 +14,11 @@ import useDraggable from "./components/12_useDraggable/demo.vue";
 import useDropZone from "./components/13_useDropZone/demo.vue";
 import useElementBounding from "./components/14_useElementBounding/demo.vue";
 import useElementSize from "./components/15_useElementSize/demo.vue";
+import useElementVisibility from "./components/16_useElementVisibility/demo.vue";
 </script>
 
 <template>
+  <useElementVisibility />
   <useElementSize />
   <useElementBounding />
   <useDropZone />
