@@ -11,10 +11,12 @@ import useManualRefHistory from "./components/09_useManualRefHistory/demo.vue";
 import useActiveElement from "./components/10_useActiveElement/demo.vue";
 import useDocumentVisibility from "./components/11_useDocumentVisibility/demo.vue";
 import useDraggable from "./components/12_useDraggable/demo.vue";
+import useDropZone from "./components/13_useDropZone/demo.vue";
 </script>
 
 <template>
-  <useDraggable />
+  <useDropZone />
+  <!-- <useDraggable /> -->
   <useDocumentVisibility />
   <useActiveElement />
   <useManualRefHistory />
