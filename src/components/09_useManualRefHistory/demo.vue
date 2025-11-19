@@ -23,7 +23,7 @@ const { canUndo, canRedo, history, commit, undo, redo } = useManualRefHistory(
   <button :disabled="!canRedo" @click="redo()">Redo</button>
   <br />
   <br />
-  <note>History (limited to 10 records for demo)</note>
+  <div>History (limited to 10 records for demo)</div>
   <div class="code-block mt-4">
     <div v-for="i in history" :key="i.timestamp">
       <span class="opacity-50 mr-2 font-mono">{{ format(i.timestamp) }}</span>
