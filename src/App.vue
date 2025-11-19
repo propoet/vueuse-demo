@@ -15,9 +15,13 @@ import useDropZone from "./components/13_useDropZone/demo.vue";
 import useElementBounding from "./components/14_useElementBounding/demo.vue";
 import useElementSize from "./components/15_useElementSize/demo.vue";
 import useElementVisibility from "./components/16_useElementVisibility/demo.vue";
+import useIntersectionObserver from "./components/17_useIntersectionObserver/demo.vue";
+import useMouseInElement from "./components/18_useMouseInElement/demo.vue";
 </script>
 
 <template>
+  <useMouseInElement />
+  <useIntersectionObserver />
   <useElementVisibility />
   <useElementSize />
   <useElementBounding />
