@@ -17,9 +17,23 @@ import useElementSize from "./components/15_useElementSize/demo.vue";
 import useElementVisibility from "./components/16_useElementVisibility/demo.vue";
 import useIntersectionObserver from "./components/17_useIntersectionObserver/demo.vue";
 import useMouseInElement from "./components/18_useMouseInElement/demo.vue";
+import useMutationObserver from "./components/19_useMutationObserver/demo.vue";
+import useParentElement from "./components/20_useParentElement/demo.vue";
+import useResizeObserver from "./components/21_useResizeObserver/demo.vue";
+import useWindowFocus from "./components/22_useWindowFocus/demo.vue";
+import useWindowScroll from "./components/23_useWindowScroll/demo.vue";
+import useWindowSize from "./components/24_useWindowSize/demo.vue";
+import useCssVar from "./components/25_useCssVar/demo.vue";
 </script>
 
 <template>
+  <useCssVar />
+  <useWindowSize />
+  <useWindowScroll />
+  <useWindowFocus />
+  <useResizeObserver />
+  <!-- <useParentElement /> -->
+  <useMutationObserver />
   <useMouseInElement />
   <useIntersectionObserver />
   <useElementVisibility />
