@@ -24,10 +24,11 @@ import useWindowFocus from "./components/22_useWindowFocus/demo.vue";
 import useWindowScroll from "./components/23_useWindowScroll/demo.vue";
 import useWindowSize from "./components/24_useWindowSize/demo.vue";
 import useCssVar from "./components/25_useCssVar/demo.vue";
+import useImage from "./components/26_useImage/demo.vue";
 </script>
 
 <template>
-  <useCssVar />
+  <useImage />
   <useWindowSize />
   <useWindowScroll />
   <useWindowFocus />
